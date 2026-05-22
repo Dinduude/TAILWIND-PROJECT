@@ -92,6 +92,7 @@
     </header>
 
     <main>
+      <!-- HERO SECTION -->
       <section class="w-full h-[calc(100vh-4.5rem)]">
         <div
           class="h-full lg:px-12 flex flex-col gap-7 2xl:gap-10 justify-center items-center"
@@ -120,48 +121,148 @@
             >
           </div>
         </div>
-        <div
-          class="hidden lg:flex bg-[url('../images/hero-image.png')] bg-center bg-no-repeat bg cover px-4 lg:px-12"
-        ></div>
+        <!-- <div class="hidden lg:flex">
+          <img src="./images/hero-image.png" alt="A laptop">
+        </div>         -->
       </section>
 
-      <section class="w-full h-auto bg-blue-shade">
-        <div class="w-9/10 max-w-8xl m-auto flex flex-col gap-5">
-          <div class="flex flex-col p-6 gap-4 items-center">
-            <h2 class="font-bold text-lg lg:text-2xl 2xl:text-3xl text-white/70">Our Services</h2>
-            <p class="text-white/50 text-sm text-center w-9/10 max-w-130 2xl:text-lg">
+      <!-- SERVICE SECTION -->
+      <section class="w-full h-auto py-15 bg-blue-shade">
+        <div class="w-9/10 max-w-8xl m-auto flex flex-col gap-14">
+          <div class="flex flex-col gap-4 items-center">
+            <h2
+              class="font-bold text-2xl lg:text-3xl 2xl:text-4xl text-white/70"
+            >
+              Our Services
+            </h2>
+            <p
+              class="text-white/50 text-sm text-center w-9/10 max-w-130 lg:text-xl 2xl:text-lg"
+            >
               We provide comprehensive solutions to help your business thrive in
               the digital age
             </p>
           </div>
-          <div class="flex flex-col lg:flex-row gap-10 mb-12">
-            <div class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl">
-              <span class="self-start w-10 h-10 flex items-center justify-center bg-light-blue rounded-lg text-white/70"><i class="fa-solid fa-code"></i></span>
-              <h3 class="capitalize text-white/70 font-bold text-lg">Web development</h3>
-              <p class="text-white/50 ">
+          <div class="flex flex-col lg:flex-row gap-10">
+            <div
+              class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl"
+            >
+              <span
+                class="self-start w-10 h-10 flex items-center justify-center bg-light-blue rounded-lg text-white/70"
+                ><i class="fa-solid fa-code"></i
+              ></span>
+              <h3 class="capitalize text-white/70 font-bold text-lg lg:text-xl">
+                Web development
+              </h3>
+              <p class="text-white/50 lg:text-lg">
                 Custom Websites and web applications built with modern
                 technologies for optimal performance.
               </p>
             </div>
 
-            <div class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl">
-              <span class="self-start w-10 h-10 flex items-center justify-center bg-green rounded-lg text-white/70"><i class="fa-solid fa-mobile-screen-button"></i></span>
-              <h3 class="capitalize text-white/70 font-bold text-lg">Mobile apps</h3>
-              <p class="text-white/50">
-                Native and cross-platform mobile applications that deliver exeptional user experiences.
+            <div
+              class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl"
+            >
+              <span
+                class="self-start w-10 h-10 flex items-center justify-center bg-green rounded-lg text-white/70"
+                ><i class="fa-solid fa-mobile-screen-button"></i
+              ></span>
+              <h3 class="capitalize text-white/70 font-bold text-lg lg:text-xl">
+                Mobile apps
+              </h3>
+              <p class="text-white/50 lg:text-lg">
+                Native and cross-platform mobile applications that deliver
+                exeptional user experiences.
               </p>
             </div>
 
-            <div class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl">
-              <span class="self-start w-10 h-10 flex items-center justify-center bg-purple rounded-lg text-white/70"><i class="fa-solid fa-chart-line"></i></span>
-              <h3 class="capitalize text-white/70 font-bold text-lg">digital marketing</h3>
-              <p class="text-white/50">
-                Strategic marketing campaigns that boost your online presence and drive conversions.
+            <div
+              class="flex flex-col gap-3 border border-white/20 bg-light-blue/5 py-10 px-8 rounded-xl shadow-2xl"
+            >
+              <span
+                class="self-start w-10 h-10 flex items-center justify-center bg-purple rounded-lg text-white/70"
+                ><i class="fa-solid fa-chart-line"></i
+              ></span>
+              <h3 class="capitalize text-white/70 font-bold text-lg lg:text-xl">
+                digital marketing
+              </h3>
+              <p class="text-white/50 lg:text-lg">
+                Strategic marketing campaigns that boost your online presence
+                and drive conversions.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="w-full h-auto py-15">
+        <div class="w-9/10 max-w-8xl m-auto flex flex-col md:flex-row gap-10">
+          <div class="w-full md:w-1/2 min-h-60">
+            <img
+              src="./images/about-image.png"
+              alt="Staffs in a meeting"
+              class="w-full h-full object-cover lg:aspect-6/3 rounded-lg"
+            />
+            <!-- class="w-9/10 h-8/10 m-auto rounded-lg lg:w-full lg:h-5/10" -->
+          </div>
+          <div class="flex flex-col gap-5 m-auto justify-center md:w-1/2">
+            <h3
+              class="font-bold text-2xl lg:text-3xl 2xl:text-4xl text-white/70 lg:text-left text-center"
+            >
+              About Nexus
+            </h3>
+            <p
+              class="text-white/50 text-sm text-center w-9/10 max-w-130 lg:text-xl 2xl:text-2xl lg:text-left"
+            >
+              We are forward-thinking technology company dedicated to helping
+              businesses navigate the digital transformation journey. With years
+              of experience and a passion for innovation, we deliver solutions
+              that matter.
+            </p>
+            <div class="flex flex-col gap-5 lg:gap-30 items-center lg:flex-row">
+              <p class="flex flex-col gap-1">
+                <span
+                  class="font-bold text-light-blue text-lg lg:text-3xl 2xl:text-4xl text-center lg:text-left"
+                  >150+</span
+                >
+                <span class="text-white/50 text-xs capitalize lg:text-lg"
+                  >Projects completed</span
+                >
+              </p>
+              <p class="flex flex-col gap-1">
+                <span
+                  class="font-bold text-green text-lg lg:text-3xl 2xl:text-4xl text-center lg:text-left"
+                  >98%</span
+                >
+                <span class="text-white/50 text-xs capitalize lg:text-lg"
+                  >clients satisfaction</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
     </main>
+
+    <footer class="w-full h-auto py-7 bg-blue-shade">
+      <div class="w-9/10 max-w-8xl m-auto flex flex-col lg:flex-row lg:justify-between gap-2 items-center">
+        <div class="flex items-center gap-2">
+          <span class="text-white/60 bg-light-blue p-1 rounded-lg"
+            ><i class="fa-solid fa-bolt"></i
+          ></span>
+          <p class="text-white/80 text-lg font-bold">Nexus</p>
+        </div>
+        <div>
+          <p class="text-white/50 capitalize">&copy; 2024 Nexus. All rights reserved. </p>
+        </div>
+        <div class="text-white/50">
+          <a href="https://x.com/Dii__ndu" class="hover:text-light-blue"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/chimdindu-ude-483688237/" class="hover:text-light-blue"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Dinduude/" class="hover:text-light-blue"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
