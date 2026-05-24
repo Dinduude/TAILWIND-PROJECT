@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,6 +17,8 @@
     />
   </head>
   <body class="bg-dark-blue font-poppins">
+    <!-- CHIMDINDU CHIEMERIE UDE  -->
+
     <header
       class="h-18 border-b border-white/20 shadow-2xl sticky top-0 z-1000 bg-dark-blue"
     >
@@ -37,17 +39,17 @@
             >
           </li>
           <li>
-            <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+            <a href="#services" class="text-white/60 hover:text-light-blue/50 text-lg"
               >Services</a
             >
           </li>
           <li>
-            <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+            <a href="#about" class="text-white/60 hover:text-light-blue/50 text-lg"
               >About</a
             >
           </li>
           <li>
-            <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+            <a href="#contact" class="text-white/60 hover:text-light-blue/50 text-lg"
               >Contact</a
             >
           </li>
@@ -72,19 +74,19 @@
               >
             </li>
             <li>
-              <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+              <a href="#services" class="text-white/60 hover:text-light-blue/50 text-lg"
                 >Services</a
               >
             </li>
             <li>
-              <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+              <a href="#about" class="text-white/60 hover:text-light-blue/50 text-lg"
                 >About</a
               >
             </li>
             <li>
-              <a href="#" class="text-white/60 hover:text-light-blue/50 text-lg"
+              <a href="#contact" class="text-white/60 hover:text-light-blue/50 text-lg"
                 >Contact</a
-              >
+              > 
             </li>
           </ul>
         </div>
@@ -93,41 +95,41 @@
 
     <main>
       <!-- HERO SECTION -->
-      <section class="w-full h-[calc(100vh-4.5rem)]">
+      <section id="about" class="w-full h-[calc(100vh-4.5rem)] flex">
         <div
-          class="h-full lg:px-12 flex flex-col gap-7 2xl:gap-10 justify-center items-center"
+          class="h-full lg:h-auto lg:px-12 flex flex-col gap-7 2xl:gap-10 justify-center items-center lg:w-1/2"
         >
           <h1
-            class="text-white/70 text-bold text-5xl lg:text-8xl 2xl:text-11xl w-9/10 max-w-160 2xl:max-w-180 text-center"
+            class="text-white/90 text-bold lg:font-bold text-5xl lg:text-6xl 2xl:text-8xl w-9/10 max-w-160 2xl:max-w-180 text-center lg:text-left"
           >
             Build Your <span class="text-light-blue">Digital</span> Future
           </h1>
           <p
-            class="text-white/50 text-lg lg:text-2xl 2xl:text-4xl w-9/10 max-w-160 2xl:max-w-200 text-center"
+            class="text-white/50 text-lg lg:text-2xl 2xl:text-4xl w-9/10 max-w-160 2xl:max-w-200 text-center lg:text-left"
           >
             Transform your business with cutting-edge solutions that drive
             growth and innovation in the digital landscape
           </p>
-          <div class="flex gap-5 justify-center">
+          <div class="flex gap-5 justify-center lg:justify-start">
             <a
-              href="#"
-              class="text-white hover:text-light-blue hover:bg-white text-sm m-auto lg:text-lg 2xl:text-3xl bg-light-blue px-5 py-1.5 rounded-lg lg:rounded-xl 2xl:rounded-2xl"
+              href="#contact"
+              class="text-white hover:text-light-blue hover:bg-white text-sm m-auto lg:text-lg 2xl:text-3xl bg-light-blue px-5 py-1.5 rounded-lg lg:rounded-xl 2xl:rounded-2xl "
               >Start Your Journey</a
             >
             <a
-              href="#"
+              href="#about"
               class="text-white hover:text-light-blue hover:bg-white text-sm m-auto lg:text-lg 2xl:text-3xl border border-white/20 px-5 py-1.5 rounded-lg lg:rounded-xl 2xl:rounded-2xl"
               >Learn More</a
             >
           </div>
         </div>
-        <!-- <div class="hidden lg:flex">
-          <img src="./images/hero-image.png" alt="A laptop">
-        </div>         -->
+        <div class="hidden lg:flex justify-center m-auto lg:w-1/2">
+          <img src="./images/hero-image.png" alt="A laptop" class="h-105 rounded-2xl">
+        </div>        
       </section>
 
       <!-- SERVICE SECTION -->
-      <section class="w-full h-auto py-15 bg-blue-shade">
+      <section id="services" class="w-full h-auto py-15 bg-blue-shade">
         <div class="w-9/10 max-w-8xl m-auto flex flex-col gap-14">
           <div class="flex flex-col gap-4 items-center">
             <h2
@@ -195,7 +197,7 @@
       </section>
 
       <!-- ABOUT SECTION -->
-      <section class="w-full h-auto py-15">
+      <section id="about" class="w-full h-auto py-15">
         <div class="w-9/10 max-w-8xl m-auto flex flex-col md:flex-row gap-10">
           <div class="w-full md:w-1/2 min-h-60">
             <img
@@ -203,7 +205,6 @@
               alt="Staffs in a meeting"
               class="w-full h-full object-cover lg:aspect-6/3 rounded-lg"
             />
-            <!-- class="w-9/10 h-8/10 m-auto rounded-lg lg:w-full lg:h-5/10" -->
           </div>
           <div class="flex flex-col gap-5 m-auto justify-center md:w-1/2">
             <h3
@@ -243,11 +244,52 @@
         </div>
       </section>
 
-      <section></section>
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="w-full h-auto py-15 bg-blue-shade">
+        <div class="w-9/10 max-w-8xl m-auto flex flex-col gap-14">
+          <div class="flex flex-col gap-4 items-center">
+            <h3
+              class="font-bold text-2xl lg:text-3xl 2xl:text-4xl text-white/70 lg:text-left text-center"
+            >
+              Get In Touch
+            </h3>
+            <p
+              class="text-white/50 text-sm text-center w-9/10 max-w-130 lg:text-xl 2xl:text-2xl"
+            >
+              Ready to start your project? Lets's discuss how we can help you
+              achieve your goals.
+            </p>
+          </div>
+          <div class="w-9/10 max-w-8xl m-auto flex flex-col gap-4 lg:flex-row lg:bg-gray/20 lg:w-7/10 lg:py-3 lg:rounded-xl">
+            <article class="flex flex-col gap-2 lg:gap-4 lg:w-1/2 p-4 ">
+              <p class="text-white/90 text-md w-9/10 max-w-130 lg:text-xl 2xl:text-2xl flex justify-center lg:justify-start gap-2">
+                <span class="text-light-blue"><i class="fa-solid fa-envelope"></i></span>hello@nexus.com
+              </p>
+              <p class="text-white/90 text-md w-9/10 max-w-130 lg:text-xl 2xl:text-2xl flex justify-center lg:justify-start gap-2">
+                <span class="text-light-blue"><i class="fa-solid fa-phone"></i></span>+1 (555) 123-4567
+              </p>
+              <p class="text-white/90 text-md w-9/10 max-w-130 lg:text-xl 2xl:text-2xl flex justify-center lg:justify-start gap-2">
+                <span class="text-light-blue"><i class="fa-solid fa-location-dot"></i></span>123
+                Business Ave, Tech City
+              </p>
+            </article>
+            <article class="w-full rounded-lg p-4 lg:w-1/2">
+              <form class="flex flex-col gap-4 ">
+                <input type="text" placeholder="Your Name" class="bg-gray/10 p-2 lg:p-4 rounded-lg text-white/80 text-sm focus:outline-none"/>
+                <input type="email" placeholder="Your Email" class="bg-gray/10 p-2 lg:p-4 rounded-lg text-white/80 text-sm focus:outline-none"/>
+                <textarea id="message" placeholder="Your Message" class="bg-gray/10 pb-10 pt-2 pl-2 lg:pb-12 lg:pt-4 lg:pl-4 rounded-lg text-white/80 text-sm focus:outline-none"></textarea>
+                <button type="submit" class="cursor-pointer bg-light-blue rounded-lg text-white/80 p-2 hover:bg-white hover:text-light-blue">Send Message</button>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="w-full h-auto py-7 bg-blue-shade">
-      <div class="w-9/10 max-w-8xl m-auto flex flex-col lg:flex-row lg:justify-between gap-2 items-center">
+    <footer class="w-full h-auto py-7 bg-gray/10">
+      <div
+        class="w-9/10 max-w-8xl m-auto flex flex-col lg:flex-row lg:justify-between gap-2 items-center"
+      >
         <div class="flex items-center gap-2">
           <span class="text-white/60 bg-light-blue p-1 rounded-lg"
             ><i class="fa-solid fa-bolt"></i
@@ -255,12 +297,22 @@
           <p class="text-white/80 text-lg font-bold">Nexus</p>
         </div>
         <div>
-          <p class="text-white/50 capitalize">&copy; 2024 Nexus. All rights reserved. </p>
+          <p class="text-white/50 capitalize">
+            &copy; 2024 Nexus. All rights reserved.
+          </p>
         </div>
         <div class="text-white/50">
-          <a href="https://x.com/Dii__ndu" class="hover:text-light-blue"><i class="fab fa-x-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/chimdindu-ude-483688237/" class="hover:text-light-blue"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://github.com/Dinduude/" class="hover:text-light-blue"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Dii__ndu" class="hover:text-light-blue"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/chimdindu-ude-483688237/"
+            class="hover:text-light-blue"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Dinduude/" class="hover:text-light-blue"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
     </footer>
