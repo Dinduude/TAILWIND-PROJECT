@@ -585,6 +585,11 @@
       gap: calc(var(--spacing) * 30);
     }
   }
+  .lg\:self-start {
+    @media (width >= 64rem) {
+      align-self: flex-start;
+    }
+  }
   .lg\:rounded-xl {
     @media (width >= 64rem) {
       border-radius: var(--radius-xl);
